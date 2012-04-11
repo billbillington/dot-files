@@ -1,0 +1,20 @@
+[user]
+  name  = William Billington
+  email = william.billington@econsultancy.com
+
+[alias]
+  co  = checkout
+  ri  = rebase --interactive --autosquash
+  rc  = rebase --continue
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = nano
+
+[github]
+  user = billbillington
+
+[init]
+  templatedir = ~/.git_template
+[merge]
+	conflictstyle = diff3
