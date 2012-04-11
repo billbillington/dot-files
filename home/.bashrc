@@ -69,6 +69,15 @@ xterm*|rxvt*)
     ;;
 esac
 
+# set 2-line color prompt (with git branch if possible)
+#if type __git_ps1 >/dev/null 2>&1; then
+#  PS1='\n[\ur@\[\033[01;34m\]\w\[\033[01;32m\]$(__git_ps1 " (%s)")\[\033[00m\]] '
+#else
+#  PS1='\n\u \[\033[01;34m\]\w\[\033[01;32m\]$(__git_ps1 " (%s)")\[\033[00m\] '
+#fi
+PS1='\n[\u @ \[\033[01;34m\]\w\[\033[00m\]]\[\033[01;32m\]$(__git_ps1 " (%s)")\[\033[00m\] '
+
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
