@@ -6,6 +6,15 @@
   co  = checkout
   ri  = rebase --interactive --autosquash
   rc  = rebase --continue
+  ra  = rebase --abort
+  c  = commit -v
+  ca  = commit -v --amend
+  d   = diff
+  dc  = diff --cached
+  l   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --all --abbrev-commit --date=relative
+
+[color]
+  ui = true
 
 [core]
   excludesfile = ~/.gitignore
