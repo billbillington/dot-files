@@ -3,15 +3,19 @@
   email = william.billington@econsultancy.com
 
 [alias]
+  a   = add
   co  = checkout
-  ri  = rebase --interactive --autosquash
-  rc  = rebase --continue
-  ra  = rebase --abort
+  f   = fetch
   c  = commit -v
   ca  = commit -v --amend
   d   = diff
   dc  = diff --cached
+  g   = grep -n
   l   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --all --abbrev-commit --date=relative
+  p   = push
+  ri  = rebase --interactive --autosquash
+  rc  = rebase --continue
+  ra  = rebase --abort
   s   = status
 
 [color]
