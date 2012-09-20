@@ -24,5 +24,6 @@ set nrformats= " Only allow numbers in decimal format for increment and decremen
 map <leader>w :w<CR>
 map <leader>e :e
 map <leader>d :bdelete<CR>
+map <leader>se :sp<CR>:e
 
 autocmd BufWritePre * :%s/\s\+$//e   " strip trailing whitespace
