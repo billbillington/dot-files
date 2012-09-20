@@ -22,5 +22,6 @@ set hidden         " allows you to switch buffers without saving
 set nrformats= " Only allow numbers in decimal format for increment and decrement commnands
 
 map <leader>w :w<CR>
+map <leader>e :e
 
 autocmd BufWritePre * :%s/\s\+$//e   " strip trailing whitespace
