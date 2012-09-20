@@ -1,0 +1,3 @@
+set show-all-if-ambiguous On    # show possible commands right away
+
+set completion-ignore-case On   # ignore case for tab completion
