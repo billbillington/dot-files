@@ -1,0 +1,8 @@
+case $OSTYPE in
+  darwin*)
+    alias ls='ls -aG'
+  ;;
+  linux-gnu)
+    alias ls='ls -a --color=auto'
+  ;;
+esac
