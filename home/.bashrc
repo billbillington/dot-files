@@ -1,3 +1,5 @@
+source ~/.bash/brew
+source ~/.bash/rvm
 source ~/.bash/ls
 
 # HISTOCONTROL - history settings
