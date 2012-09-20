@@ -3,7 +3,14 @@
 #   ignorespace ignore empty commands
 HISTCONTROL=ignoredups:ignorespace
 
-alias la='ls -aG'
+case $OSTYPE in
+  darwin*)
+    alias ls='ls -aG'
+  ;;
+  linux-gnu)
+    alias ls='ls -a --color=auto'
+  ;;
+esac
 
 export PS1='\n\D{%d/%m %k:%M:%S}\n\[\e[1;32m\][\u @ \w]\[\e[0m\]$(__git_ps1 " (%s)") '
 
