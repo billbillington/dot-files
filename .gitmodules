@@ -4,3 +4,6 @@
 [submodule "home/.vim/bundle/ctrlp"]
 	path = home/.vim/bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "home/.vim/bundle/delimit_mate"]
+	path = home/.vim/bundle/delimit_mate
+	url = git://github.com/Raimondi/delimitMate.git
