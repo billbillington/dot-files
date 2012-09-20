@@ -28,5 +28,9 @@ map <leader>w :w<CR>                    " save file
 map <leader>e :e                        " open new file
 map <leader>d :bdelete<CR>              " delete buffer
 map <leader>se :sp<CR>:e                " open new file in split
+map <leader>p <C-p>                     " file in project search
+map <leader>b :CtrlPBuffer<CR>          " file in buffer search
+map <leader>sp :sp<CR><C-p>             " file in project search in split
+map <leader>sb :sp<CR>:CtrlPBuffer<CR>  " file in project search in split
 
 autocmd BufWritePre * :%s/\s\+$//e      " strip trailing whitespace
