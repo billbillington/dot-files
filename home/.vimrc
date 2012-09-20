@@ -19,7 +19,7 @@ set nowritebackup  " only in case you don't want a backup file while editing
 set noswapfile     " no swap files
 set cursorline     " Highlights current line
 set hidden         " allows you to switch buffers without saving
-set nrformats= " Only allow numbers in decimal format for increment and decrement commnands
+set nrformats=     " Only allow numbers in decimal format for increment and decrement commnands
 
 map <leader>w :w<CR>
 map <leader>e :e
