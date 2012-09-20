@@ -1,6 +1,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+let mapleader = ","
+
 syntax enable
 
 set number
