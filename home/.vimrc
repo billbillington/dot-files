@@ -11,6 +11,7 @@ set autoindent
 set expandtab
 set tabstop=2
 set showcmd
+set softtabstop=2
 set shiftwidth=2
 set autoread
 set nobackup       " no backup files
