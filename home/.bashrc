@@ -1,3 +1,6 @@
+# HISTOCONTROL - history settings
+#   ignoredups only records each command once in the history
+#   ignorespace ignore empty commands
 HISTCONTROL=ignoredups:ignorespace
 
 alias la='ls -aG'
