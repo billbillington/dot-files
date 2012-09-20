@@ -18,5 +18,6 @@ set nobackup       " no backup files
 set nowritebackup  " only in case you don't want a backup file while editing
 set noswapfile     " no swap files
 set cursorline     " Highlights current line
+set hidden         " allows you to switch buffers without saving
 
 autocmd BufWritePre * :%s/\s\+$//e   " strip trailing whitespace
