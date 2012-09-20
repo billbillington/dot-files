@@ -21,6 +21,9 @@ set cursorline     " Highlights current line
 set hidden         " allows you to switch buffers without saving
 set nrformats=     " Only allow numbers in decimal format for increment and decrement commnands
 
+set background=dark
+colorscheme solarized
+
 map <leader>w :w<CR>                    " save file
 map <leader>e :e                        " open new file
 map <leader>d :bdelete<CR>              " delete buffer
