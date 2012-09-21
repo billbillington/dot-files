@@ -33,4 +33,7 @@ map <leader>b :CtrlPBuffer<CR>          " file in buffer search
 map <leader>sp :sp<CR><C-p>             " file in project search in split
 map <leader>sb :sp<CR>:CtrlPBuffer<CR>  " file in project search in split
 
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
 autocmd BufWritePre * :%s/\s\+$//e      " strip trailing whitespace
