@@ -24,14 +24,29 @@ set nrformats=     " Only allow numbers in decimal format for increment and decr
 set background=dark
 colorscheme solarized
 
-map <leader>w :w<CR>                    " save file
-map <leader>e :e                        " open new file
-map <leader>d :bdelete<CR>              " delete buffer
-map <leader>se :sp<CR>:e                " open new file in split
-map <leader>p <C-p>                     " file in project search
-map <leader>b :CtrlPBuffer<CR>          " file in buffer search
-map <leader>sp :sp<CR><C-p>             " file in project search in split
-map <leader>sb :sp<CR>:CtrlPBuffer<CR>  " file in project search in split
+" save file
+map <leader>w :w<CR>
+
+" open new file
+map <leader>e :e
+
+" delete buffer
+map <leader>d :bdelete<CR>
+
+" open new file in split
+map <leader>se :sp<CR>:e
+
+" file in project search
+map <leader>p <C-p>
+
+" file in buffer search
+map <leader>b :CtrlPBuffer<CR>
+
+" file in project search in split
+map <leader>sp :sp<CR><C-p>
+
+" file in project search in split
+map <leader>sb :sp<CR>:CtrlPBuffer<CR>
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
