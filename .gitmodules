@@ -10,3 +10,6 @@
 [submodule "home/.vim/bundle/vim-gitgrep"]
 	path = home/.vim/bundle/vim-gitgrep
 	url = git://github.com/aghareza/vim-gitgrep.git
+[submodule "home/.vim/bundle/surround"]
+	path = home/.vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
