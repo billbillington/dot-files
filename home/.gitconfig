@@ -20,6 +20,7 @@
   rc  = rebase --continue
   ra  = rebase --abort
   s   = status
+  sh = show head
 
 [color]
   ui = true
