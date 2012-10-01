@@ -26,6 +26,9 @@ set laststatus=2   " Needed to make powerline work
 set background=dark
 colorscheme solarized
 
+" Makes hidden files appear in ctrlp search in vim
+let g:ctrlp_show_hidden = 1
+
 " save file
 map <leader>w :w<CR>
 
