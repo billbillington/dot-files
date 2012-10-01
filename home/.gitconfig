@@ -11,7 +11,10 @@
   d   = diff
   dc  = diff --cached
   g   = grep -n
-  l   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --all --abbrev-commit --date=relative
+  # graph log of head branch
+  l   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --abbrev-commit --date=relative
+  # graph log of all branches
+  la   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --abbrev-commit --all --date=relative
   p   = push
   ri  = rebase --interactive --autosquash
   rc  = rebase --continue
