@@ -2,6 +2,7 @@ source ~/.bash/brew
 source ~/.bash/rbenv
 source ~/.bash/ls
 source ~/.bash/hitch
+source ~/.bash/zeus
 
 # HISTOCONTROL - history settings
 #   ignoredups only records each command once in the history

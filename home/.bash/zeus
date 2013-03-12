@@ -1,0 +1,13 @@
+restart_zeus() {
+  for pid in $(ps aux | grep zeus\ slave | grep -v grep | awk '{print $2}'); do
+    kill $pid;
+  done
+
+  rm .zeus.sock
+
+  if ps aux |grep [i]notify; then
+    kill $(ps aux | grep [i]notify | awk '{print $2}')
+  fi
+
+  zeus start
+}
