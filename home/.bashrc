@@ -1,4 +1,5 @@
 source ~/.bash/brew
+source ~/.bash/rbenv
 source ~/.bash/ls
 source ~/.bash/hitch
 
