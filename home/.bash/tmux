@@ -1,0 +1,18 @@
+# This code is a hack to to allow you to use the share ssh authentication socket
+# between tmux sessions started in different terminals
+#
+# In the words of https://github.com/lmars:
+#
+#   SH_AUTH_SOCK is a path to a socket connected to the machine you ssh'd from, so
+#   when authenticating it pipes requests back down this socket.
+#
+#   This socket is created at a random path everytime you SSH in, so this change just
+#   symlinks the a predictable path to the random path (in my case /tmp/ssh-agent-ubuntu-tmux).
+
+SSH_SOCK="/tmp/ssh-agent-$USER-tmux"
+if test $SSH_AUTH_SOCK && [ $SSH_AUTH_SOCK != $SSH_SOCK ]
+then
+  rm -f $SSH_SOCK
+  ln -sf $SSH_AUTH_SOCK $SSH_SOCK
+  export SSH_AUTH_SOCK=$SSH_SOCK
+fi

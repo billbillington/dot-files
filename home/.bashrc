@@ -3,6 +3,7 @@ source ~/.bash/rbenv
 source ~/.bash/ls
 source ~/.bash/hitch
 source ~/.bash/zeus
+source ~/.bash/tmux
 
 # HISTOCONTROL - history settings
 #   ignoredups only records each command once in the history
