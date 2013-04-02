@@ -9,7 +9,7 @@
   c  = commit -v
   ca  = commit -v --amend
   d   = diff
-  dc  = diff --cached
+  ds  = diff --staged
   g   = grep -n
   # graph log of head branch
   l   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --abbrev-commit --date=relative
