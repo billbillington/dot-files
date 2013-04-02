@@ -38,6 +38,9 @@ map <leader>e :e
 " delete buffer
 map <leader>d :bdelete<CR>
 
+" force delete buffer
+map <leader>D :bdelete!<CR>
+
 " open new file in split
 map <leader>se :sp<CR>:e
 
