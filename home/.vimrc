@@ -56,6 +56,9 @@ map <leader>sp :sp<CR><C-p>
 " file in project search in split
 map <leader>sb :sp<CR>:CtrlPBuffer<CR>
 
+" Git Grep
+map <leader>g :GitGrep<Space>
+
 " make the checksyntax plugin automatically check ruby syntax after save
 let g:checksyntax={'ruby': {'cmd': 'ruby -c', 'okrx': 'Syntax OK', 'auto': 1}}
 
