@@ -59,6 +59,10 @@ map <leader>sb :sp<CR>:CtrlPBuffer<CR>
 " Git Grep
 map <leader>g :GitGrep<Space>
 
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
 " Use ctrl+<direction> to navigate between splits instead of ctrl+w+<direction>
 nnoremap <C-H> <C-W>h
 nnoremap <C-J> <C-W>j
