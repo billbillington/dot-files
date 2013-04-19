@@ -59,6 +59,16 @@ map <leader>sb :sp<CR>:CtrlPBuffer<CR>
 " Git Grep
 map <leader>g :GitGrep<Space>
 
+" Use ctrl+<direction> to navigate between splits instead of ctrl+w+<direction>
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-Left> <C-W><Left>
+nnoremap <C-Down> <C-W><Down>
+nnoremap <C-Up> <C-W><Up>
+nnoremap <C-Right> <C-W><Right>
+
 " make the checksyntax plugin automatically check ruby syntax after save
 let g:checksyntax={'ruby': {'cmd': 'ruby -c', 'okrx': 'Syntax OK', 'auto': 1}}
 
