@@ -68,6 +68,13 @@ map <leader><Down> <C-w><Down>
 map <leader><Right> <C-w><Right>
 map <leader><Left> <C-w><Left>
 
+" Resize horizonatal splits with leader jk
+map <leader>j <C-w>+
+map <leader>k <C-w>-
+
+" Equalise splits
+map <leader>= <C-w>=
+
 " Close all but 'current' split window
 map <leader>o :only<CR>
 
