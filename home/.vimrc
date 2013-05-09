@@ -68,6 +68,9 @@ map <leader><Down> <C-w><Down>
 map <leader><Right> <C-w><Right>
 map <leader><Left> <C-w><Left>
 
+" Close all but 'current' split window
+map <leader>o :only<CR>
+
 " make the checksyntax plugin automatically check ruby syntax after save
 let g:checksyntax={'ruby': {'cmd': 'ruby -c', 'okrx': 'Syntax OK', 'auto': 1}}
 
