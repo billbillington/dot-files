@@ -44,3 +44,5 @@
   templatedir = ~/.git_template
 [merge]
   conflictstyle = diff3
+[push]
+  default = simple
