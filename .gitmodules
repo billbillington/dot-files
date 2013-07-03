@@ -7,9 +7,6 @@
 [submodule "home/.vim/bundle/delimit_mate"]
 	path = home/.vim/bundle/delimit_mate
 	url = git://github.com/Raimondi/delimitMate.git
-[submodule "home/.vim/bundle/vim-gitgrep"]
-	path = home/.vim/bundle/vim-gitgrep
-	url = https://github.com/aghareza/vim-gitgrep.git
 [submodule "home/.vim/bundle/surround"]
 	path = home/.vim/bundle/surround
 	url = git://github.com/tpope/vim-surround.git
@@ -25,3 +22,6 @@
 [submodule "home/.vim/bundle/vim-dispatch"]
 	path = home/.vim/bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "home/.vim/bundle/git-grep-vim"]
+	path = home/.vim/bundle/git-grep-vim
+	url = git@github.com:henrik/git-grep-vim.git
