@@ -16,7 +16,7 @@
   # graph log of all branches
   la   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --abbrev-commit --all --date=relative
   p   = push
-  ri  = rebase --interactive --autosquash
+  ri  = rebase --interactive
   rc  = rebase --continue
   ra  = rebase --abort
   s   = status
