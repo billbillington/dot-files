@@ -31,6 +31,9 @@ let g:ctrlp_show_hidden = 1
 " Stops ctrl-p randomly changing it's working directory
 let g:ctrlp_working_path_mode = 0
 
+" Allow closing duplicate buffers with BufKill
+let g:BufKillActionWhenBufferDisplayedInAnotherWindow = 'kill'
+
 " save file
 map <leader>w :w<CR>
 
@@ -38,13 +41,13 @@ map <leader>w :w<CR>
 map <leader>e :e
 
 " delete buffer
-map <leader>d :bdelete<CR>
+map <leader>d :BD<CR>
 
 " delete all buffers
 map <leader>ad :bufdo bdelete<CR>
 
 " force delete buffer
-map <leader>D :bdelete!<CR>
+map <leader>D :BD!<CR>
 
 " open new file in split
 map <leader>se :sp<CR>:e

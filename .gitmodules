@@ -25,3 +25,6 @@
 [submodule "home/.vim/bundle/git-grep-vim"]
 	path = home/.vim/bundle/git-grep-vim
 	url = git@github.com:henrik/git-grep-vim.git
+[submodule "home/.vim/bundle/bufkill"]
+	path = home/.vim/bundle/bufkill
+	url = git@github.com:vim-scripts/bufkill.vim.git
