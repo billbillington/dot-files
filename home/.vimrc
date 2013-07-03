@@ -28,6 +28,9 @@ colorscheme solarized
 " Makes hidden files appear in ctrlp search in vim
 let g:ctrlp_show_hidden = 1
 
+" Stops ctrl-p randomly changing it's working directory
+let g:ctrlp_working_path_mode = 0
+
 " save file
 map <leader>w :w<CR>
 
