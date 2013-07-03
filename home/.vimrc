@@ -40,6 +40,9 @@ map <leader>e :e
 " delete buffer
 map <leader>d :bdelete<CR>
 
+" delete all buffers
+map <leader>ad :bufdo bdelete<CR>
+
 " force delete buffer
 map <leader>D :bdelete!<CR>
 
