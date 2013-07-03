@@ -8,6 +8,7 @@
   f   = fetch
   c  = commit -v
   ca  = commit -v --amend
+  commit  = commit -v
   d   = diff
   ds  = diff --staged
   g   = grep -n
