@@ -28,3 +28,6 @@
 [submodule "home/.vim/bundle/git-grep-vim"]
 	path = home/.vim/bundle/git-grep-vim
 	url = git@github.com:billbillington/git-grep-vim.git
+[submodule "home/.vim/bundle/vim-gitgutter"]
+	path = home/.vim/bundle/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
