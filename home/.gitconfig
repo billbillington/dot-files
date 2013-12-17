@@ -6,6 +6,7 @@
   a   = add
   co  = checkout
   f   = fetch
+  b   = branch
   c  = commit -v
   ca  = commit -v --amend
   commit  = commit -v
