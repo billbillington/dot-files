@@ -31,6 +31,10 @@ let g:ctrlp_show_hidden = 1
 " Stops ctrl-p randomly changing it's working directory
 let g:ctrlp_working_path_mode = 0
 
+let g:ctrlp_custom_ignore = {
+\ 'dir':  '(node_modules|\.git)$'
+\ }
+
 " Allow closing duplicate buffers with BufKill
 let g:BufKillActionWhenBufferDisplayedInAnotherWindow = 'kill'
 
@@ -89,6 +93,9 @@ map <leader>o :only<CR>
 
 " make the checksyntax plugin automatically check ruby syntax after save
 let g:checksyntax={'ruby': {'cmd': 'ruby -c', 'okrx': 'Syntax OK', 'auto': 1}}
+
+" use eslint for javascript syntax checking
+let g:syntastic_javascript_checkers = ['eslint']
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
