@@ -46,3 +46,9 @@
   templatedir = ~/.git_template
 [merge]
   conflictstyle = diff3
+[heroku]
+	account = personal
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
