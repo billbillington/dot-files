@@ -3,3 +3,5 @@
 zeus.json
 .rbenv-gemsets
 .rbenv-version
+tags
+node_modules
