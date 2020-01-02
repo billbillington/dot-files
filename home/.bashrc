@@ -1,4 +1,6 @@
 source ~/.bash/brew
+# brew bash-completion must be installed
+source $(brew --prefix)/etc/bash_completion
 source ~/.bash/rbenv
 source ~/.bash/ls
 source ~/.bash/hitch
