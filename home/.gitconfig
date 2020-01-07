@@ -39,6 +39,9 @@
   excludesfile = ~/.gitignore
   editor = vim
 
+[commit]
+  verbose = true
+
 [github]
   user = billbillington
 
