@@ -23,6 +23,7 @@
   ra  = rebase --abort
   s   = status
   sh = show head
+  stat = show --stat
 
   # Shows log from master with numbers
   jl  = !sh -c 'git log --pretty=format:\"%Cred%h%Creset -%C(red)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%ae%Creset\" master.. | cat -n'
