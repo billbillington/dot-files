@@ -6,6 +6,7 @@ source ~/.bash/ls
 source ~/.bash/hitch
 source ~/.bash/zeus
 source ~/.bash/tmux
+source ~/.bash/docker-sync
 
 # HISTOCONTROL - history settings
 #   ignoredups only records each command once in the history
