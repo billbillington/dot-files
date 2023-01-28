@@ -37,3 +37,6 @@
 [submodule "home/.vim/bundle/vim-camelsnek"]
 	path = home/.vim/bundle/vim-camelsnek
 	url = https://github.com/nicwest/vim-camelsnek.git
+[submodule "home/.vim/bundle/vim-rails"]
+	path = home/.vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
