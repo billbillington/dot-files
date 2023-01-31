@@ -30,3 +30,4 @@ export PS1='\n\D{%d/%m %k:%M:%S}\n\[\e[1;32m\][\u @ \w]\[\e[0m\]$(__git_ps1 " (%
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [ -f /Users/bill/Code/jsmbars/boss/app/serverless/node_modules/tabtab/.completions/slss.bash ] && . /Users/bill/Code/jsmbars/boss/app/serverless/node_modules/tabtab/.completions/slss.bash
+alias ctags='/usr/local/bin/ctags'

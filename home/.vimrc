@@ -105,3 +105,4 @@ autocmd BufWritePre * :%s/\s\+$//e      " strip trailing whitespace
 
 " select what you just pasted
 map gp `[v`]
+set tags=tags
