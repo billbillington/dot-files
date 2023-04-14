@@ -1,42 +1,42 @@
 [submodule "home/.vim/bundle/solarized"]
 	path = home/.vim/bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "home/.vim/bundle/ctrlp"]
 	path = home/.vim/bundle/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
-[submodule "home/.vim/bundle/delimit_mate"]
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "delimitMate"]
 	path = home/.vim/bundle/delimit_mate
-	url = git://github.com/Raimondi/delimitMate.git
-[submodule "home/.vim/bundle/surround"]
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vimsurround"]
 	path = home/.vim/bundle/surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule "home/.vim/bundle/powerline"]
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim-powerlline"]
 	path = home/.vim/bundle/powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
-[submodule "home/.vim/bundle/check_syntax"]
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "vim-check_syntax"]
 	path = home/.vim/bundle/check_syntax
-	url = git://github.com/tomtom/checksyntax_vim.git
-[submodule "home/.vim/bundle/vim-fugitive"]
+	url = https://github.com/tomtom/checksyntax_vim.git
+[submodule "vim-fugitive"]
 	path = home/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "home/.vim/bundle/vim-dispatch"]
+[submodule "vim-dispatch"]
 	path = home/.vim/bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
-[submodule "home/.vim/bundle/bufkill"]
+[submodule "bufkill"]
 	path = home/.vim/bundle/bufkill
-	url = git@github.com:vim-scripts/bufkill.vim.git
-[submodule "home/.vim/bundle/git-grep-vim"]
+	url = https://github.com/vim-scripts/bufkill.vim.git
+[submodule "git-grep-vim"]
 	path = home/.vim/bundle/git-grep-vim
-	url = git@github.com:billbillington/git-grep-vim.git
-[submodule "home/.vim/bundle/vim-gitgutter"]
+	url = https://github.com/billbillington/git-grep-vim.git
+[submodule "vim-gitgutter"]
 	path = home/.vim/bundle/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter.git
-[submodule "home/.vim/bundle/syntastic"]
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "home/.vim/bundle/vim-camelsnek"]
+[submodule "vim-camelsnek"]
 	path = home/.vim/bundle/vim-camelsnek
 	url = https://github.com/nicwest/vim-camelsnek.git
-[submodule "home/.vim/bundle/vim-rails"]
+[submodule "vim-rails"]
 	path = home/.vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
