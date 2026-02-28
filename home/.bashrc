@@ -1,4 +1,4 @@
-export PATH=/Users/bill/.gem/ruby/2.6.0/bin:/Users/bill/.gem/ruby/2.6.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/bill/android-sdks/platform-tools/:/Users/bill/android-sdks/tools/:/Users/bill/android-sdks/platform-tools/:/Users/bill/android-sdks/tools/:/opt/homebrew/bin:/opt/homebrew/bin
+export PATH="$HOME/.gem/ruby/2.6.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/iTerm.app/Contents/Resources/utilities:$HOME/android-sdks/platform-tools/:$HOME/android-sdks/tools/:/opt/homebrew/bin"
 # removes annoying "zsh: command not found: brew" message when using bash in macOS
 export BASH_SILENCE_DEPRECATION_WARNING=1
 source ~/.bash/brew
@@ -14,15 +14,11 @@ source ~/.bash/docker-sync
 #   ignorespace ignore empty commands
 HISTCONTROL=ignoredups:ignorespace
 
-export ZVM_INSTALL=%USERPROFILE%\.zvm\self
-
 export ANDROID_HOME=~/Library/Android/sdk/
 export PATH=$PATH:~/android-sdks/platform-tools/
 export PATH=$PATH:~/android-sdks/tools/
 export PATH=$PATH:~/.cargo/bin
-export PATH="$PATH:~/.local/bin"
-export PATH="$PATH:%USERPROFILE%\.zvm\bin"
-export PATH="$PATH:%ZVM_INSTALL%"
+export PATH="$PATH:$HOME/.local/bin"
 export EDITOR=nvim
 
 export PS1='\n\D{%d/%m %k:%M:%S}\n\[\e[1;32m\][\u @ \w]$ \[\e[0m\]'
