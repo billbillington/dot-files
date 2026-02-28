@@ -4,6 +4,13 @@ let mapleader = ","
 
 syntax enable
 
+" Normal mode (block)
+let &t_EI = "\<Esc>[1 q"
+" Insert mode (vertical bar)
+let &t_SI = "\<Esc>[5 q"
+" Replace mode (underline)
+let &t_SR = "\<Esc>[4 q"
+
 set number         " show line numbers
 set smartindent    " increase or increase indentation for lines in brackets etc
 set autoindent     " keeps level of indentation for new lines
@@ -16,7 +23,6 @@ set autoread       " reload unmodified files automatically
 set nobackup       " no backup files
 set nowritebackup  " only in case you don't want a backup file while editing
 set noswapfile     " no swap files
-set cursorline     " Highlights current line
 set hidden         " allows you to switch buffers without saving
 set nrformats=     " Only allow numbers in decimal format for increment and decrement commnands
 set backspace=indent,eol,start
